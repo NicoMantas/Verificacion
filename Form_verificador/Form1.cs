@@ -83,13 +83,13 @@ namespace Form_verificador
             char primeraLetra = char.ToLower(Nombre[0]);
 
             if (edad >= 200)
-                return $"🧛 La probabilidad de que sea vampiro es alta. \n⚠️ Activar protocolo vampiro para {nombre} ⚠️";
+                return $"🧛 La probabilidad de que sea vampire es alta. \n⚠️ Activar protocolo vampire para {nombre} ⚠️";
             else if (primeraLetra == 'h' && edad <= 199)
-                return $"🐺 La probabilidad de que sea hombre lobo es alta. \n⚠️ Activar protocolo hombre lobo para {nombre} ⚠️";
+                return $"🐺 La probabilidad de que sea hombre lobe es alta. \n⚠️ Activar protocolo hombre lobo para {nombre} ⚠️";
             else if (primeraLetra != 'h' && edad >= 180)
-                return $"🐺 La probabilidad de que sea hombre lobo es alta. \n⚠️ Activar protocolo hombre lobo para {nombre} ⚠️";
+                return $"🐺 La probabilidad de que sea hombre lobe es alta. \n⚠️ Activar protocolo hombre lobo para {nombre} ⚠️";
             else
-                return $"✅ Es muy probable que sea humano. Bienvenide a la convención {nombre} 😘";
+                return $"✅ Es muy probable que sea humane. Bienvenide a la convención {nombre} 😘";
         }
 
         private void tb_resultado_TextChanged(object sender, EventArgs e)
